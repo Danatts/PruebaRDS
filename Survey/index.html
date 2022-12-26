@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- CSS files--> 
+    <link rel="stylesheet" href="css/css-reset.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!-- Title--> 
+    <title>Survey Technical Interview</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/glint.png" alt="logo" class="header__logo">
+      <div class="header__progress-container">
+        <h2>Progress</h2>
+        <div class="header__progress-bar">
+          <div id="progress-bar--fill" class="header__progress-bar--fill" />
+        </div>
+      </div>
+    </header>
+    <div id="intro" class="page info-page">
+      <p>Welcome to the <i>Your Voice</i> Employee Survey. This survey is an oportunity to voice
+        your views about working at Oracle, how the bussiness is operating, and how it can be more
+        productive. Your insights are important to the managment team, and key findings from the
+        survey will be used to help the organization continue to improve its effectiveness.</p>
+      <p>Every item in the survey provides an opportunity for you to add comments. Just hover below
+        your selected rating to show the '+ Comment' button and click it to add a comment.
+        <strong>Once finished, please be sure to click the 'Save' button, otherwise your response
+          will not be submitted to Glint.</strong> Your comments will be reported exactly as you
+        write them if at least 15 people respond to a question. Take care not to indentify yourself
+        or others in your comments with the words or language you use.</p>
+      <p><strong>Note: if you have witnessed or suspected a violation of Oracle's code of Ethics and
+        Business Conduct, please report it through Oracle's Compliance and Ethics helpline via phone
+        or by using the <u><a href="#">online website</a></u>. Your HR representive is another contact
+        point. Due to the confidential nature of the survey, Oracle will not be able to act on such
+        issues raised in your comments here.</strong></p>
+      <br />
+      <button class="start-button" type="button">
+        <a href="#ques1">Start Survey</a>
+      </button>
+    </div>
+    <section class="questions-container">
+      <div id="ques1" class="page question-page">
+        <h2>Question 1</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#ques2" id="q1-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques2" id="q1-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques2" id="q1-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques2" id="q1-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques2" id="q1-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques2">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques2" class="page question-page">
+        <div class="move-button">
+          <a href="#ques1">&#8963;</a>
+        </div>
+        <h2>Question 2</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          <table class="rating-table">
+          <tr>
+            <td><a href="#ques3" id="q2-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques3" id="q2-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques3" id="q2-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques3" id="q2-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques3" id="q2-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+          </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques3">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques3" class="page question-page">
+        <div class="move-button">
+          <a href="#ques2">&#8963;</a>
+        </div>
+        <h2>Question 3</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#ques4" id="q3-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques4" id="q3-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques4" id="q3-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques4" id="q3-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques4" id="q3-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques4">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques4" class="page question-page">
+        <div class="move-button">
+          <a href="#ques3">&#8963;</a>
+        </div>
+        <h2>Question 4</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#ques5" id="q4-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques5" id="q4-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques5" id="q4-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques5" id="q4-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques5" id="q4-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques5">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques5" class="page question-page">
+        <div class="move-button">
+          <a href="#ques4">&#8963;</a>
+        </div>
+        <h2>Question 5</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#ques6" id="q5-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques6" id="q5-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques6" id="q5-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques6" id="q5-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques6" id="q5-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques6">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques6" class="page question-page">
+        <div class="move-button">
+          <a href="#ques5">&#8963;</a>
+        </div>
+        <h2>Question 6</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#ques7" id="q6-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques7" id="q6-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques7" id="q6-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques7" id="q6-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques7" id="q6-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques7">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques7" class="page question-page">
+        <div class="move-button">
+          <a href="#ques6">&#8963;</a>
+        </div>
+        <h2>Question 7</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#ques8" id="q7-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques8" id="q7-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques8" id="q7-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques8" id="q7-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques8" id="q7-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques8">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques8" class="page question-page">
+        <div class="move-button">
+          <a href="#ques7">&#8963;</a>
+        </div>
+        <h2>Question 8</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#ques9" id="q8-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques9" id="q8-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques9" id="q8-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques9" id="q8-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques9" id="q8-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques9">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques9" class="page question-page">
+        <div class="move-button">
+          <a href="#ques8">&#8963;</a>
+        </div>
+        <h2>Question 9</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#ques10" id="q9-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques10" id="q9-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques10" id="q9-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques10" id="q9-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#ques10" id="q9-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+        <div class="move-button">
+          <a href="#ques10">&#8964;</a>
+        </div>
+      </div>
+      <div id="ques10" class="page question-page">
+        <div class="move-button">
+          <a href="#ques9">&#8963;</a>
+        </div>
+        <h2>Question 10</h2>
+        <p>I have the costumer information needed to proactively help customers achieve their goals
+          with Oracle</p>
+        <table class="rating-table">
+          <tr>
+            <td><a href="#result" id="q10-1" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#result" id="q10-2" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#result" id="q10-3" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#result" id="q10-4" onclick="main(this.id)"><div class="box-link />"</a></td>
+            <td><a href="#result" id="q10-5" onclick="main(this.id)"><div class="box-link />"</a></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </table>
+        <div class="rating-label">
+          <p>Strongly disagree</p>
+          <p>Strongly agree</p>
+        </div>
+    </section>
+    <div id="result" class="page info-page">
+      <h2 id="final-message">You need to answer all the questions</h2>
+      <p id="score"></p>
+      <p id="level"></p>
+    </div>
+    <!-- Javascript files--> 
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
+

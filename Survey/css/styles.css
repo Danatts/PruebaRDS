@@ -1,0 +1,141 @@
+:root {
+  --white: rgb(220, 220, 220);
+  --aqua: rgb(105, 180, 160);
+  --black: rgb(20, 20, 20);
+  --gray: rgb(115, 115, 105);
+  --green: rgb(160, 200, 100);
+  --yellow: rgb(250, 235, 65);
+}
+
+
+html {
+  color: var(--black);
+  scroll-behavior: smooth;
+}
+
+.header {
+  align-items: center;
+  background-color: var(--black);
+  color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 15vh;
+  justify-content: center;
+  padding: 0 10%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header__logo {
+  height: 50%;
+}
+
+.header__progress-container {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.header__progress-bar {
+  background-color: var(--gray);
+  border-radius: 1rem;
+  height: 1rem;
+  width: 15em;
+}
+
+.header__progress-bar--fill {
+  background-color: var(--yellow);
+  border-radius: 1rem;
+  height: 1rem;
+  width: 0rem;
+}
+
+.page {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.info-page {
+  align-items: center;
+  background-color: var(--aqua);
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  gap: 3rem;
+  justify-content: center;
+  padding: 18rem 3rem;
+  text-align: center;
+}
+
+.question-page {
+  align-items: center;
+  display: flex;
+  background-color: var(--white);
+  border: var(--black) solid 0.2rem;
+  flex-direction: column;
+  font-size: 2rem;
+  gap: 5rem;
+  justify-content: center;
+  padding: 0rem 3rem;
+  text-align: center;
+}
+
+.start-button {
+  background-color: var(--green);
+  border: inset 0.3rem var(--black);
+  border-radius: 1rem;
+  color: var(--black);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.start-button:hover {
+  scale: 1.05;
+}
+
+.rating-table {
+  border-collapse: separate;
+  border-spacing: 0.5rem;
+  width: 80%;
+}
+
+.box-link {
+  background-color: var(--gray);
+  cursor: pointer;
+  height: 3rem;
+  width: 100%;
+}
+
+.box-link:hover, .box-link:active, .box-link:focus {
+  background-color: var(--green);
+}
+
+.rating-label {
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.move-button {
+  font-size: 5rem;
+
+}
+
+@media (min-width:768px) {
+  .header {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+  }
+
+  .page {
+    padding: 12rem;
+  }
+}
